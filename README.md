@@ -39,6 +39,8 @@ main();
 
 ## Using specific storage backend
 
+Here is example to get agent for specific backend to save file:
+
 ```javascript
 
 // Using local storage backend
@@ -46,7 +48,14 @@ let localAgent = this.getContext('Storage').getAgent('local');
 
 // Save file
 localAgent.save(readStream, 'myimage.png', 12345);
+```
 
+## Register storage backend
+
+```javascript
+
+// Register storage backend
+this.getContext('Storage').registerAgent('local', agent);
 ```
 
 ## License
