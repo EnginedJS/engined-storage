@@ -1,0 +1,30 @@
+{
+  "name": "engined-storage",
+  "version": "0.0.1",
+  "description": "Storage service for engined",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnginedJS/engined-storage.git"
+  },
+  "keywords": [
+    "service",
+    "engined",
+    "storage"
+  ],
+  "engines": {
+    "node": ">=7.4"
+  },
+  "author": "Fred Chien <cfsghost@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EnginedJS/engined-storage/issues"
+  },
+  "homepage": "https://github.com/EnginedJS/engined-storage#readme",
+  "dependencies": {
+    "engined": "0.0.2"
+  }
+}
